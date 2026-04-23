@@ -1,5 +1,6 @@
 body {
   background-color: #F6F5F3;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
@@ -24,4 +25,21 @@ body {
 .btn-primary:hover {
     color: white;
     box-shadow: 0 6px 20px rgba(255, 141, 170, 0.4);
+}
+
+.hero {
+  background-image: url('https://images.ctfassets.net/sa0sroutfts9/1Tbk3aiOlTLB5gMC4XwqAO/3146754c27e5fe8059af1d05d1987b52/two-kittens-napping-together.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #FFF8E7;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
 }
