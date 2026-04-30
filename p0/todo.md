@@ -37,10 +37,11 @@ I want to change the navigation to include dropdown menus for different topic se
 
 I do like most of the colors they use but any of the sections that utilize gradients I will seperate.
 
-1. [ ] Add dropdown functionality to navigation for list of links.
-2. [ ] Remove gradient colors from sections
-3. [ ] Ensure mobile breakpoints work
-4. [ ] Replace tags with semantic tags
+1. [ ] Make all pages "feel" like they belong
+2. [ ] Add dropdown functionality to navigation for list of links.
+3. [ ] Remove gradient colors from sections
+4. [ ] Ensure mobile breakpoints work
+5. [ ] Replace tags with semantic tags
 
 ## Cleanup
 
