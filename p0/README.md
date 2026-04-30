@@ -58,3 +58,7 @@
 * **Line Numbers:** 516-598
 * **Top-Level Classes:** `bg-black`, `border-top`, `container`, `row` 
 * **Research:** The footer creates the same amount of padding gap the rest of the sections have following in suit. It also uses a black background to set itself out from the previous section and a border too creating a nicer transition. It is made up of the brand name and lists of links helping navigate to other pages, even though there still is a sticky nav. It keeps everything centered inside of the container.
+
+## Section 4: The Scripts
+* **Vendor JS Files:** [Bootstrap](./js/bootstrap.bundle.js) Line 607, [aos](./js/aos.js) Line 608
+* **Main JS File:** There is no "main" js file as they only utilize bootstrap and aos that they linked seperately. However, they do include 2 script tags that have inline JS. One script tag inits AOS, the other script tag is for aos as well letting the browser know where the scrollPos is through an event listener as well as debugging for the developer the scroll position in the console.
