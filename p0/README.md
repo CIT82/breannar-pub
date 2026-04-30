@@ -31,3 +31,30 @@
 * **Line Numbers:** 159-191
 * **Top-Level Classes:** `bg-dark` on main wrapper, below is `container`, `px and py`, with `row` and `col` inside.
 * **Research:** The template for the next main content section focuses on the what we do or about of the site. Here there is a main wrapper for a background color, and the following tag is a `container` to apply some margin and enable rows and columns to be created inside of it. They also add some additional padding to the x and y of the container to make the section a little cleaner and not against the top edge.
+
+## Section 3: Site Inventory (Bottom Half)
+
+### 1. Article Preview
+* **Line Numbers:** 193-259
+* **Top-Level Classes:** `container`, `row`, `rounded-5`, `shadow`, `col-12`, `col-md-6`
+* **Research:** This next section is a preview of a bunch of different article cards that they have made to show content pages for the site. They use a parent wrapping with a black background and then inside of that wrapper apply a container to ensure the background covers the entire width. Then inside of the container there is a row, defining gaps for the columns that will be inside. Then each card is put into a column wrapper which then contains all the card fields like an image, heading, description and an anchor tag.
+
+### 2. Pricing Sectoin
+* **Line Numbers:** 278-304
+* **Top-Level Classes:** `container`,`row`,`d-flex`,`align-items-center`
+* **Research:** The pricing section is a container with only one row but breaks out two different sections into their own parts with col-12 on small screens and col-6 with medium screens. It also utilizes flexbox and aligning the elements to the center of the page so the cols aren't pushed off to the sides creating a large gap in the center.
+
+### 3. Features Section
+* **Line Numbers:** 305-348
+* **Top-Level Classes:** `container-fluid`, `position-relative`, `position-absolute`
+* **Research:** A major functionality about the features section is that the entire section is animated. Meaning that once it appears on screen there is a fade effect with parts of the section sliding into place. They achieve this effect with the position relative and then attaching the child elements with position-absolute.
+
+### 4. Reviews Section
+* **Line Numbers:** 349-512
+* **Top-Level Classes:** `container`, `row`, `d-flex`, `align-items-center`
+* **Research:** The review section take a lot of inspiration into how the pricing section was setup with a wrapping container, a row inside that is set to flexbox and aligning the items center. The section utilizes svgs to create stars in the cards that they have created, of course each card is in a column and rounded appropriately.
+
+### The Footer
+* **Line Numbers:** 516-598
+* **Top-Level Classes:** `bg-black`, `border-top`, `container`, `row` 
+* **Research:** The footer creates the same amount of padding gap the rest of the sections have following in suit. It also uses a black background to set itself out from the previous section and a border too creating a nicer transition. It is made up of the brand name and lists of links helping navigate to other pages, even though there still is a sticky nav. It keeps everything centered inside of the container.
