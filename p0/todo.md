@@ -39,6 +39,8 @@ I do like most of the colors they use but any of the sections that utilize gradi
 
 1. [ ] Add dropdown functionality to navigation for list of links.
 2. [ ] Remove gradient colors from sections
+3. [ ] Ensure mobile breakpoints work
+4. [ ] Replace tags with semantic tags
 
 ## Cleanup
 
