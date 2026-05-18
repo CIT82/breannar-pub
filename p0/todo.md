@@ -2,8 +2,6 @@
 
 ## Architecture
 
-I will be using the abstract art section a lot that is featured on the home-page under the hero. As well as the actual `content.html` page that is listed in the home page. I will need to change the nav to include a dropdown for content sections and navigation.
-
 1. [x] Change Navigation menu 
     - Home
     - Topics (dropdown)
@@ -16,12 +14,6 @@ I will be using the abstract art section a lot that is featured on the home-page
 
 ## Content Replacement
 
-I need to update the name of the site, branding, headers and images to follow suit with the flow of the site. 
-
-I also need to change the article preview section to link to some of the main topic points that I will be creating navigation links for.
-
-There's an interesting technical features section that has numbers, percentages, etc about whatever the template was trying to preview. Instead utilize the section to preview about me.
-
 1. [x] Update Name of Site
 2. [x] Update Branding in Navigation
 3. [x] Update Branding/Template in Footer
@@ -29,23 +21,28 @@ There's an interesting technical features section that has numbers, percentages,
 5. [ ] All images need to change to be relevant.
 6. [x] On homepage, update What we do to talk about the reason I am making the site.
 7. [x] On homepage, change article preview sections to match with main topics that also follow navigation links.
-8. [ ] On homepage, Update technical features section with content that matches about me
+8. Fill in Content for Pages:
+    - [ ] Home
+    - [ ] About
+    - [ ] Neovim
+        - [ ] Blog 1
+        - [ ] Blog 2
+    - [ ] NixOS
+        - [ ] Blog 1
+        - [ ] Blog 2
+        - [ ] Blog 3
+    - [ ] Shaders
+        - [ ] Blog 1
+        - [ ] Blog 2
+9. [ ] Add lightweight JS framework for rendering webgl shaders
 
 ## Design & Bootstrap
 
-I want to change the navigation to include dropdown menus for different topic sections I'd like to cover and talk about for my site.
-
-I do like most of the colors they use but any of the sections that utilize gradients I will seperate.
-
-1. [ ] Make all pages "feel" like they belong
+1. [x] Make all pages "feel" like they belong
 2. [x] Add dropdown functionality to navigation for list of links.
-3. [ ] Remove gradient colors from sections
-4. [x] Ensure mobile breakpoints work
-5. [ ] Replace tags with semantic tags
+3. [ ] Ensure mobile breakpoints work
 
 ## Cleanup
-
-There are a lot of unwanted links in both the navigation and footer. I also want to remove the pricing and reviews section as I don't think I'll need these are reusable sections for any other content page I generate.
 
 1. Remove unapplicable sections
     - [x] Pricing
